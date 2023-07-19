@@ -1,0 +1,90 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: rgb(202, 117, 63);
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color:rgb(202, 117, 63);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover
+{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    padding: 16px;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.carousel-inner img{
+    width: 100%;
+    text-align: center;
+}
+
+.section-title{
+    font-family: 'Pacifico', cursive;
+    color:rgb(202, 117, 63); 
+}
+
+.input-color{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(202, 117, 63);
+}
+
+.colormenu{
+    color: rgb(202, 117, 63);
+}
+
+
+ul li{
+    list-style:none;
+}
+
+
+#sobre-a-cafeteria, #cardapio{
+    background-color: rgb(237, 215, 201);
+}
+
+
+.nav-cardapio .nav-link.nav-link.active,
+#contato button{
+    background-color: rgb(202, 117, 63);
+    color:#fff
+}
+
+.nav-cardapio .nav-link:hover{
+    color: rgb(202, 117, 63);
+}
+
+.social-links li{
+    display: inline;
+    
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#footer{
+    background-color: rgb(202, 117, 63);
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
